@@ -21,3 +21,6 @@ if ($currentTime -ge $startTime -and $currentTime -lt $endTime) {
 } else {
     Set-DarkTheme
 }
+
+taskkill /f /IM explorer.exe
+start explorer.exe
